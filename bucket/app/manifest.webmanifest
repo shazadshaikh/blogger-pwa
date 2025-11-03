@@ -1,8 +1,8 @@
 {
-  "name": "My Blog",
+  "name": "Blood Bank Plus",
   "id": "/",
-  "short_name": "My Blog",
-  "description": "My blog description goes here...",
+  "short_name": "BBPlus",
+  "description": "Blood Bank Plus blog for donations and awareness.",
   "dir": "auto",
   "lang": "en-US",
   "orientation": "natural",
@@ -11,7 +11,7 @@
   "display": "standalone",
   "prefer_related_applications": false,
   "background_color": "#fff",
-  "theme_color": "#fff",
+  "theme_color": "#ff0000",
   "icons": [
     {
       "src": "icons/favicon.ico",
@@ -115,10 +115,10 @@
   ],
   "shortcuts": [
     {
-      "name": "Shortcut 1",
-      "short_name": "Shortcut 1",
-      "description": "Shortcut 1 description goes here...",
-      "url": "/search/label/shortcut-1?utm_source=homescreen",
+      "name": "Donation Tips",
+      "short_name": "Donate",
+      "description": "Tips for blood donation",
+      "url": "/search/label/donation?utm_source=homescreen",
       "icons": [
         {
           "src": "icons/android-chrome-96x96.png",
@@ -127,10 +127,10 @@
       ]
     },
     {
-      "name": "Shortcut 2",
-      "short_name": "Shortcut 2",
-      "description": "Shortcut 2 description goes here...",
-      "url": "/search/label/shortcut-2?utm_source=homescreen",
+      "name": "Blood Banks",
+      "short_name": "Banks",
+      "description": "List of blood banks",
+      "url": "/search/label/banks?utm_source=homescreen",
       "icons": [
         {
           "src": "icons/android-chrome-96x96.png",
