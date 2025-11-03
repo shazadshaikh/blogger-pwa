@@ -2,25 +2,25 @@ import type { Config } from './types';
 
 export default {
   id: '/',
-  name: 'Blood Bank Plus',  // Yahan apna blog name daalo
-  shortName: 'BBPlus',      // Short name daalo
-  description: 'Blood Bank Plus blog for donations and awareness.',  // Apna description daalo
+  name: 'Blood Bank Plus',
+  shortName: 'BBPlus',
+  description: 'Blood Bank Plus blog for donations and awareness.',  
   direction: 'auto',
-  language: 'en-US',        // Apni language daalo, jaise 'hi-IN' for Hindi
-  backgroundColor: '#fff',  // Background color (HEX code)
-  themeColor: '#ff0000',    // Theme color (aapka red color, jaise blood theme ke liye)
+  language: 'en-US',        
+  backgroundColor: '#fff',  
+  themeColor: '#ff0000',   
   display: 'standalone',
   orientation: 'natural',
   scope: '/',
-  startUrl: '/?utm_source=homescreen',  // Home page URL
+  startUrl: '/?utm_source=homescreen',
   appleStatusBarStyle: 'black-translucent',
   preferRelatedApplications: false,
-  shortcuts: [  // Optional: Quick links add karo, jaise blood groups ke labels
+  shortcuts: [
     {
       name: 'O+ Donations',
       shortName: 'O+',
       description: 'Find O+ blood donors',
-      url: '/search/label/O-Positive?utm_source=homescreen',  // Apna label URL daalo
+      url: '/search/label/O-Positive?utm_source=homescreen',
     },
     {
       name: 'A- Awareness',
@@ -31,13 +31,11 @@ export default {
   ],
   pwa: {
     logs: true,
-    // OneSignal nahi use karo kyuki no Cloudflare, so false rakho
     oneSignalEnabled: false,
     oneSignalConfig: {
-      appId: '',  // Blank rakho
+      appId: '',
       allowLocalhostAsSecureOrigin: true,
     },
   },
-  // Yahan apna blog URL daalo (JsDelivr ke liye zaroori)
   origin: 'https://bloodbankplus.blogspot.com',
 } satisfies Config;
