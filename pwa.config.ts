@@ -1,3 +1,4 @@
+import type { Config } from './types';
 export default {
   id: '/',
   name: 'Blood Bank Plus',
