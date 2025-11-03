@@ -2,42 +2,42 @@ import type { Config } from './types';
 
 export default {
   id: '/',
-  name: 'My Blog',
-  shortName: 'My Blog',
-  description: 'My blog description goes here...',
+  name: 'Blood Bank Plus',  // Yahan apna blog name daalo
+  shortName: 'BBPlus',      // Short name daalo
+  description: 'Blood Bank Plus blog for donations and awareness.',  // Apna description daalo
   direction: 'auto',
-  language: 'en-US',
-  backgroundColor: '#fff',
-  themeColor: '#fff',
+  language: 'en-US',        // Apni language daalo, jaise 'hi-IN' for Hindi
+  backgroundColor: '#fff',  // Background color (HEX code)
+  themeColor: '#ff0000',    // Theme color (aapka red color, jaise blood theme ke liye)
   display: 'standalone',
   orientation: 'natural',
   scope: '/',
-  startUrl: '/?utm_source=homescreen',
+  startUrl: '/?utm_source=homescreen',  // Home page URL
   appleStatusBarStyle: 'black-translucent',
   preferRelatedApplications: false,
-  shortcuts: [
+  shortcuts: [  // Optional: Quick links add karo, jaise blood groups ke labels
     {
-      name: 'Shortcut 1',
-      shortName: 'Shortcut 1',
-      description: 'Shortcut 1 description goes here...',
-      url: '/search/label/shortcut-1?utm_source=homescreen',
+      name: 'O+ Donations',
+      shortName: 'O+',
+      description: 'Find O+ blood donors',
+      url: '/search/label/O-Positive?utm_source=homescreen',  // Apna label URL daalo
     },
     {
-      name: 'Shortcut 2',
-      shortName: 'Shortcut 2',
-      description: 'Shortcut 2 description goes here...',
-      url: '/search/label/shortcut-2?utm_source=homescreen',
+      name: 'A- Awareness',
+      shortName: 'A-',
+      description: 'A- blood info',
+      url: '/search/label/A-Negative?utm_source=homescreen',
     },
   ],
   pwa: {
     logs: true,
-    // OneSignal is only available if you are using cloudflare workers
-    oneSignalEnabled: false, // To enable OneSignal, set this to true
+    // OneSignal nahi use karo kyuki no Cloudflare, so false rakho
+    oneSignalEnabled: false,
     oneSignalConfig: {
-      appId: '********-****-****-****-************', // Replace with your OneSignal App Id
+      appId: '',  // Blank rakho
       allowLocalhostAsSecureOrigin: true,
     },
   },
-  // Please replace with your blog url if you are using CDN (JsDelivr)
-  origin: 'https://hello-example.blogspot.com',
+  // Yahan apna blog URL daalo (JsDelivr ke liye zaroori)
+  origin: 'https://bloodbankplus.blogspot.com',
 } satisfies Config;
