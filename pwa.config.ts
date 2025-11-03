@@ -1,36 +1,41 @@
 import type { Config } from './types';
+
 export default {
   id: '/',
   name: 'Blood Bank Plus',
-  shortName: 'BloodBank+',
-  description: 'Find blood donors, request blood, save lives - Blood Bank Plus',
-  direction: 'ltr',
+  shortName: 'BBPlus',
+  description: 'Blood Bank Plus blog for donations and awareness.',
+  direction: 'auto',
   language: 'en-US',
-  backgroundColor: '#ffffff',
-  themeColor: '#d32f2f',  // Red color (blood theme)
+  backgroundColor: '#fff',
+  themeColor: '#ff0000',
   display: 'standalone',
-  orientation: 'any',
+  orientation: 'natural',
   scope: '/',
   startUrl: '/?utm_source=homescreen',
   appleStatusBarStyle: 'black-translucent',
   preferRelatedApplications: false,
   shortcuts: [
     {
-      name: 'Request Blood',
-      shortName: 'Request',
-      description: 'Urgent blood request form',
-      url: '/p/request-blood.html?utm_source=homescreen',
+      name: 'Donation Tips',
+      shortName: 'Donate',
+      description: 'Tips for blood donation',
+      url: '/search/label/donation?utm_source=homescreen',
     },
     {
-      name: 'Find Donor',
-      shortName: 'Donors',
-      description: 'Search blood donors near you',
-      url: '/search/label/Donors?utm_source=homescreen',
+      name: 'Blood Banks',
+      shortName: 'Banks',
+      description: 'List of blood banks',
+      url: '/search/label/banks?utm_source=homescreen',
     },
   ],
   pwa: {
     logs: true,
-    oneSignalEnabled: false, // JsDelivr mein OneSignal nahi chalega
+    oneSignalEnabled: false,
+    oneSignalConfig: {
+      appId: '',
+      allowLocalhostAsSecureOrigin: true,
+    },
   },
-  origin: 'https://bloodbankplus.blogspot.com', // YEH JARURI HAI!
+  origin: 'https://bloodbankplus.blogspot.com',
 } satisfies Config;
