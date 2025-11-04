@@ -3,7 +3,7 @@ import type { Config } from './types';
 export default {
   id: '/',
   name: 'BloodBank+',
-  shortName: 'BB+',
+  shortName: 'BloodBank+',
   description: 'Blood Bank Plus - Complete free blood bank management software.',
   direction: 'auto',
   language: 'en-US',
