@@ -1,11 +1,11 @@
 {
-  "name": "BloodBank+",
+  "name": "Blood Bank Plus",
   "id": "/",
   "short_name": "BloodBank+",
   "description": "Blood Bank Plus - Complete free blood bank management software.",
   "dir": "auto",
   "lang": "en-US",
-  "orientation": "natural",
+  "orientation": "any",
   "start_url": "/?utm_source=homescreen",
   "scope": "/",
   "display": "standalone",
