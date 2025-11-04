@@ -2,7 +2,7 @@ import type { Config } from './types';
 
 export default {
   id: '/',
-  name: 'BloodBank+',
+  name: 'Blood Bank Plus',
   shortName: 'BloodBank+',
   description: 'Blood Bank Plus - Complete free blood bank management software.',
   direction: 'auto',
@@ -10,7 +10,7 @@ export default {
   backgroundColor: '#071826',
   themeColor: '#071826',
   display: 'standalone',
-  orientation: 'natural',
+  orientation: 'any',
   scope: '/',
   startUrl: '/?utm_source=homescreen',
   appleStatusBarStyle: 'black-translucent',
