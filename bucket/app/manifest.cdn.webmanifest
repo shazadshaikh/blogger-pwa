@@ -1,8 +1,8 @@
 {
-  "name": "Blood Bank Plus",
+  "name": "BloodBank+",
   "id": "/",
-  "short_name": "BBPlus",
-  "description": "Blood Bank Plus blog for donations and awareness.",
+  "short_name": "BB+",
+  "description": "Blood Bank Plus - Complete free blood bank management software.",
   "dir": "auto",
   "lang": "en-US",
   "orientation": "natural",
@@ -10,8 +10,8 @@
   "scope": "https://bloodbankplus.blogspot.com/",
   "display": "standalone",
   "prefer_related_applications": false,
-  "background_color": "#fff",
-  "theme_color": "#ff0000",
+  "background_color": "#071826",
+  "theme_color": "#071826",
   "icons": [
     {
       "src": "icons/favicon.ico",
@@ -115,10 +115,10 @@
   ],
   "shortcuts": [
     {
-      "name": "Donation Tips",
-      "short_name": "Donate",
-      "description": "Tips for blood donation",
-      "url": "https://bloodbankplus.blogspot.com/search/label/donation?utm_source=homescreen",
+      "name": "About",
+      "short_name": "About",
+      "description": "BloodBank+ About Us",
+      "url": "https://bloodbankplus.blogspot.com/p/about.html",
       "icons": [
         {
           "src": "icons/android-chrome-96x96.png",
@@ -127,10 +127,34 @@
       ]
     },
     {
-      "name": "Blood Banks",
-      "short_name": "Banks",
-      "description": "List of blood banks",
-      "url": "https://bloodbankplus.blogspot.com/search/label/banks?utm_source=homescreen",
+      "name": "Disclaimer",
+      "short_name": "Diclaimer",
+      "description": "BloodBank+ Dislaimer",
+      "url": "https://bloodbankplus.blogspot.com/p/disclaimer.html",
+      "icons": [
+        {
+          "src": "icons/android-chrome-96x96.png",
+          "sizes": "96x96"
+        }
+      ]
+    },
+    {
+      "name": "Privacy Policy",
+      "short_name": "Privacy",
+      "description": "BloodBank+ Privacy Policy",
+      "url": "https://bloodbankplus.blogspot.com/p/privacy-policy.html",
+      "icons": [
+        {
+          "src": "icons/android-chrome-96x96.png",
+          "sizes": "96x96"
+        }
+      ]
+    },
+    {
+      "name": "Term & Conditions",
+      "short_name": "T&C",
+      "description": "BloodBank+ Term & Conditions",
+      "url": "https://bloodbankplus.blogspot.com/p/terms-conditions.html",
       "icons": [
         {
           "src": "icons/android-chrome-96x96.png",
